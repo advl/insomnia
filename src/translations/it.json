@@ -52,5 +52,15 @@
   "app.default.graphqlInstalled": "",
   "app.default.graphqlNotInstalled": "",
   "app.default.successfullyInstalled": "",
-  "app.default.welcome": ""
+  "app.default.welcome": "",
+  "ds.contrib.opening_times_input.friday": "",
+  "ds.contrib.opening_times_input.monday": "",
+  "ds.contrib.opening_times_input.saturday": "",
+  "ds.contrib.opening_times_input.sunday": "",
+  "ds.contrib.opening_times_input.thursday": "",
+  "ds.contrib.opening_times_input.tuesday": "",
+  "ds.contrib.opening_times_input.wendesday": "",
+  "ds.site.content_slides.back": "",
+  "ds.form.downshiftCombobox.notFound": "",
+  "ds.form.downshiftCombobox.reload": ""
 }

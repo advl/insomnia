@@ -31,7 +31,7 @@
     "deploy-commit": "git add . && git commit -m '[Auto] Compile and deploy from cli' && git push",
     "build:deploy": "npm run build:local && npm run deploy-commit",
     "bd": "npm run build:deploy",
-    "test-eslint": "eslint src/client.gql.js",
+    "test-eslint": "eslint src/client.js",
     "relink": "npm link @fwrlines/ds && npm link @fwrlines/ds.core && npm link @fwrlines/ds.contrib && npm link @fwrlines/ds.form && npm link @fwrlines/alphabet-scss && npm link @fwrlines/swatch && npm link @fwrlines/utils"
   },
   "repository": {
@@ -49,8 +49,8 @@
     "@apollo/link-retry": "^2.0.0-beta.3",
     "@apollo/react-ssr": "^4.0.0-beta.1",
     "@fwrlines/ds": "latest",
-    "@fwrlines/stylebook": "^1.0.3",
-    "@fwrlines/swatch": "^1.0.0-beta.5",
+    "@fwrlines/stylebook": "latest",
+    "@fwrlines/swatch": "latest",
     "@fwrlines/utils": "latest",
     "@loadable/component": "^5.12.0",
     "@loadable/server": "^5.12.0",

@@ -241,9 +241,45 @@
     "defaultMessage": "Show"
   },
   {
+    "id": "ds.contrib.opening_times_input.friday",
+    "defaultMessage": "Friday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.monday",
+    "defaultMessage": "Monday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.saturday",
+    "defaultMessage": "Saturday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.sunday",
+    "defaultMessage": "Sunday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.thursday",
+    "defaultMessage": "Thursday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.tuesday",
+    "defaultMessage": "Tuesday"
+  },
+  {
+    "id": "ds.contrib.opening_times_input.wendesday",
+    "defaultMessage": "Wednesday"
+  },
+  {
     "id": "ds.dashboard.navigation.horizontal_bar.back",
     "description": "Navigation back button",
     "defaultMessage": "Back"
+  },
+  {
+    "id": "ds.form.downshiftCombobox.notFound",
+    "defaultMessage": "No items found."
+  },
+  {
+    "id": "ds.form.downshiftCombobox.reload",
+    "defaultMessage": "Reload"
   },
   {
     "id": "ds.form.input_label.optional",
@@ -254,6 +290,10 @@
     "id": "ds.oauth2.o_login_button.login",
     "description": "Label for the oauth2 login button",
     "defaultMessage": "Login with {providerName}"
+  },
+  {
+    "id": "ds.site.content_slides.back",
+    "defaultMessage": "Back"
   },
   {
     "id": "ds.site.paginator.next",

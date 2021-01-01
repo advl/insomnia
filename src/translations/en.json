@@ -52,5 +52,15 @@
   "app.default.graphqlInstalled": "This app uses GraphQL at endpoint {endpoint}. A hello message from the server should appear below.",
   "app.default.graphqlNotInstalled": "This app does not use GraphQL.",
   "app.default.successfullyInstalled": "If you're seeing this, it means the application runs correctly.",
-  "app.default.welcome": "Welcome to { name } version { version }"
+  "app.default.welcome": "Welcome to { name } version { version }",
+  "ds.contrib.opening_times_input.friday": "Friday",
+  "ds.contrib.opening_times_input.monday": "Monday",
+  "ds.contrib.opening_times_input.saturday": "Saturday",
+  "ds.contrib.opening_times_input.sunday": "Sunday",
+  "ds.contrib.opening_times_input.thursday": "Thursday",
+  "ds.contrib.opening_times_input.tuesday": "Tuesday",
+  "ds.contrib.opening_times_input.wendesday": "Wednesday",
+  "ds.site.content_slides.back": "Back",
+  "ds.form.downshiftCombobox.notFound": "No items found.",
+  "ds.form.downshiftCombobox.reload": "Reload"
 }

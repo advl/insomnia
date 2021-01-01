@@ -1,10 +1,11 @@
 @use "@fwrlines/swatch/src/main" as swatch;
 @use "@fwrlines/stylebook/src/main" as stylebook;
+//@use "@fwrlines/destination/src/main" as destination;
+@use "@fwrlines/stylebook/src/globals" as *;
+@use "@fwrlines/stylebook/src/mixins" as mixins;
+
 
 #main {
   height: 100%;
 }
 
-.style1 {
-  border-bottom: 1px solid var(--light-metadata);
-}

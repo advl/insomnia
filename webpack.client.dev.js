@@ -29,7 +29,7 @@ module.exports = {
   },
 
   entry:[
-    './src/client.gql.js'
+    './src/client.js'
     //'./src/client.js'
   ],
   output:{
