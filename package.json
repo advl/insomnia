@@ -32,7 +32,7 @@
     "build:deploy": "npm run build:local && npm run deploy-commit",
     "bd": "npm run build:deploy",
     "test-eslint": "eslint src/client.js",
-    "relink": "npm link @fwrlines/ds @fwrlines/ds.core @fwrlines/ds.contrib @fwrlines/ds.form @fwrlines/stylebook @fwrlines/swatch @fwrlines/utils @fwrlines/destination"
+    "relink": "npm link @fwrlines/ds @fwrlines/ds.core @fwrlines/ds.contrib @fwrlines/ds.form @fwrlines/stylebook @fwrlines/swatch @fwrlines/utils @fwrlines/destination @fwrlines/assets"
   },
   "repository": {
     "type": "git",
