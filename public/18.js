@@ -1,14 +1,1 @@
-(window["__LOADABLE_LOADED_CHUNKS__"] = window["__LOADABLE_LOADED_CHUNKS__"] || []).push([[18],{
-
-/***/ "../ds/contrib/dist/es/experimental/Album/album.scss":
-/*!***********************************************************!*\
-  !*** ../ds/contrib/dist/es/experimental/Album/album.scss ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///../ds/contrib/dist/es/experimental/Album/album.scss?");
-
-/***/ })
-
-}]);
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[18],{216:function(e,t,a){"use strict";var n=a(195);Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s=n(a(198)),o=n(a(0)),m=a(196);t.default=function(e){var t=e.components;(0,s.default)(e,["components"]);return o.default.createElement(m.MDXTag,{name:"wrapper",components:t},o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"),o.default.createElement(m.MDXTag,{name:"h1",components:t},"This is a test"))}}}]);
