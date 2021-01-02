@@ -1,0 +1,32 @@
+/* @fwrlines/generator-react-component 2.5.2 */
+
+/*
+
+Classes :
+.local_nav_bar : default
+
+*/
+
+
+
+.local_nav_bar {
+  mix-blend-mode: exclusion;
+  padding: calc(.5 * var(--u)) 0;
+  position: sticky;
+  scroll-snap-align: center;
+  //background:blue;
+  //left:auto;
+  //right:auto;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  svg#logo {
+    cursor: pointer;
+
+    use {
+      fill: var(--yellow);
+    }
+  }
+}

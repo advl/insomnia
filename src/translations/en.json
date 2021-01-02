@@ -62,5 +62,7 @@
   "ds.contrib.opening_times_input.wendesday": "Wednesday",
   "ds.site.content_slides.back": "Back",
   "ds.form.downshiftCombobox.notFound": "No items found.",
-  "ds.form.downshiftCombobox.reload": "Reload"
+  "ds.form.downshiftCombobox.reload": "Reload",
+  "ds.magazine.subtitle": "",
+  "ds.magazine.title": ""
 }

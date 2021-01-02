@@ -1,7 +1,5 @@
-//import { routes as authRoutes } from './auth'
-//import { routes as dashboardRoutes } from './dashboard'
+import { routes as magazineRoutes } from './magazine'
 
 export default [
-//  ...dashboardRoutes,
-  //...authRoutes
+  ...magazineRoutes
 ]

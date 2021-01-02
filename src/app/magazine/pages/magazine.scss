@@ -1,0 +1,9 @@
+#page_magazine {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+
+  footer {
+    scroll-snap-align: center;
+  }
+}
