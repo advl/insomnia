@@ -23,7 +23,7 @@ if (!isBackend) {
   import('./main.scss')
 }
 
-const baseClassName = 'card'
+const baseClassName = 'issue1-card'
 
 
 /**
@@ -34,6 +34,7 @@ const Card = ({
   id,
   className,
   style,
+  children,
   ...props
 }) =>
   //
@@ -51,7 +52,9 @@ const Card = ({
       href={url}
       {...props}
     >
-      <h2>Po</h2>
+      { children }
+      
+      <h2>Welcome to the Card component</h2>
     </MagazineArticleCard>
   )
 

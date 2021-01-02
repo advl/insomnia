@@ -34,7 +34,8 @@ const LocalNavBar = ({
   id,
   className,
   style,
-  sticky
+  sticky,
+  activeStory
 }) => (
   <nav
     className={
@@ -48,7 +49,7 @@ const LocalNavBar = ({
       position:sticky ? 'sticky' : 'fixed'
     }}
   >
-    <Link to="/">
+    <Link to={`/${activeStory ? `#` + activeStory.metadata?.id : ''}`}>
       <svg
         id="logo"
         xmlns="http://www.w3.org/2000/svg"

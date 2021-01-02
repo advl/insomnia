@@ -27,6 +27,8 @@ module.exports = function (api) {
     '@babel/preset-react'
   ]
   const plugins = [
+    //'@babel/plugin-transform-runtime',
+    'macros',
     'inline-dotenv',
     [
       'module-resolver', {

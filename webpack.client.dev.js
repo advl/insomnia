@@ -67,6 +67,11 @@ module.exports = {
     usedExports:true
   },
 
+  //https://mdxjs.com/getting-started/webpack
+  node:{
+    fs:'empty'
+  },
+
   mode   :'development',
   plugins:[
 
@@ -128,6 +133,20 @@ module.exports = {
               outputPath:'images/'
             },
             loader:'file-loader'
+          }
+        ]
+      },
+      {
+        test:/\.mdx?$/,
+        use :[
+          {
+            loader:'babel-loader'
+          },
+          {
+            loader :'@mdx-js/loader',
+            options:{
+              //remarkPlugins: [images, emoji]
+            }
           }
         ]
       }

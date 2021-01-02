@@ -6,4 +6,8 @@
   footer {
     scroll-snap-align: center;
   }
+  > main {
+    scroll-snap-align: start;
+
+  }
 }

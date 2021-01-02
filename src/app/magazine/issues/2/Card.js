@@ -34,6 +34,7 @@ const Card = ({
   id,
   className,
   style,
+  children,
   ...props
 }) =>
   //
@@ -51,7 +52,8 @@ const Card = ({
       href={url}
       {...props}
     >
-      <h2>Welcome to the Card component</h2>
+      { children }
+      <h2>Po</h2>
     </MagazineArticleCard>
   )
 

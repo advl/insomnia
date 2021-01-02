@@ -94,6 +94,10 @@ module.exports = {
   },
 
 
+  node:{
+    fs:'empty'
+  },
+
   mode:'production',
 
   optimization:{
@@ -244,6 +248,20 @@ module.exports = {
               outputPath:'images/'
             },
             loader:'file-loader'
+          }
+        ]
+      },
+      {
+        test:/\.mdx?$/,
+        use :[
+          {
+            loader:'babel-loader'
+          },
+          {
+            loader :'@mdx-js/loader',
+            options:{
+              //remarkPlugins: [images, emoji]
+            }
           }
         ]
       }

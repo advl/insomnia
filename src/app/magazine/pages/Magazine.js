@@ -1,6 +1,7 @@
 /* @fwrlines/generator-react-component 2.5.1 */
 import * as React from 'react'
-import { useEffect, useCallback, useState } from 'react'
+import { Suspense } from 'react'
+import { useLayoutEffect, useEffect, useCallback, useState } from 'react'
 import PropTypes from 'prop-types'
 
 import { Page, Heading } from '@fwrlines/ds'
@@ -12,6 +13,10 @@ import issues from '../issues'
 import { isBackend } from 'utils/isBackend'
 
 import { Link } from 'react-router-dom'
+
+import { animateScroll as scroll, Element } from 'react-scroll'
+
+import { useIsTop } from '@fwrlines/utils'
 
 
 //Config
@@ -100,8 +105,18 @@ const Magazine = ({
   const [activeStory, setActiveStory] = useState(findIssueFromUrl(location.pathname))
 
   const ActiveStoryCard = activeStory?.Card
+  const Content = activeStory?.Content
+
 
   useEffect(() => {
+    if (!activeStory) {
+      const id=location.hash.replace('#', '')
+      scroll.scrollTo(id)
+    }
+  }, [activeStory])
+
+  useEffect(() => {
+    //console.log('pt changed to', location.pathname, location)
     if (location.pathname.length > 1) {
       setActiveStory(
         findIssueFromUrl(location.pathname)
@@ -122,7 +137,10 @@ const Magazine = ({
       className="u1 md-u2"
       HELMET={helmet}
     >
-      <LocalNavBar sticky={!activeStory} />
+      <LocalNavBar
+        sticky={!activeStory}
+        activeStory={activeStory}
+      />
       {/*}
       <h1>
         { JSON.stringify({
@@ -132,17 +150,27 @@ const Magazine = ({
       </h1>
       */}
       { issues.filter(issue => activeStory ? activeStory.url === issue.url: true).map(({
+        key,
         Card,
-        url,
-        metadata
+        metadata,
+        url
       }) => (
-        <>
-          <Card
-            isClickable={!activeStory}
-            isOpenDefault={!activeStory}
-          />
-        </>
+        <Card
+          id={metadata.id}
+          isClickable={!activeStory}
+          hasReadMore={activeStory}
+          isOpenDefault={!activeStory}
+        >
+          <Element name={metadata.id} />
+        </Card>
       ))}
+      { Content &&
+        <main>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Content />
+          </Suspense>
+        </main>
+      }
       { !activeStory &&
       <footer className="p-u uc">
         <div className="h3"><Link to="/sauce">Secret Sauce</Link></div>
