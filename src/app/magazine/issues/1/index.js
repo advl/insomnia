@@ -1,7 +1,7 @@
 export { default as Card } from './Card'
 import { lazy } from 'react'
 import { loadable } from 'utils'
-import { importMDX } from 'mdx.macro'
+//import { importMDX } from 'mdx.macro'
 
 export const url = '/interview-paiting-the-apocalypse'
 
@@ -11,4 +11,4 @@ export const metadata = {
   subtitle:'Entretien avec C.S',
   id      :'issue-1'
 }
-export const Content = loadable(() => importMDX('./content.mdx'))
+export const Content = loadable(() => import('./content.mdx'))

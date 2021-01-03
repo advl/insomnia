@@ -1,1 +1,1 @@
-.section.header{background:var(--background-image,#ff0);background-size:cover;background-position:50%;position:relative}.section.header .overlay{background-color:rgba(0,0,0,.55);height:100%;position:absolute;width:100%;top:0;left:0;z-index:1}.section.header .i-content{z-index:2;position:relative}
+.local_nav_bar{mix-blend-mode:exclusion;padding:calc(0.5*var(--u)) 0;position:-webkit-sticky;position:sticky;scroll-snap-align:center;text-align:center;top:0;width:100%;z-index:2}.local_nav_bar svg#logo{cursor:pointer}.local_nav_bar svg#logo use{fill:var(--yellow)}
