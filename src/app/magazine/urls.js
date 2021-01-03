@@ -8,7 +8,8 @@ const basePath = '/'
 
 const urls = {
   //LOGIN  :'login',
-  HOME:basePath
+  HOME :basePath,
+  SAUCE:'/secret-sauce'
 }
 
 issues.forEach((issue, key) => {

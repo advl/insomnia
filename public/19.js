@@ -1,1 +1,1 @@
-(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[19],{218:function(e,n,t){"use strict";var _=t(195);Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o=_(t(198)),a=_(t(0)),r=t(196);n.default=function(e){var n=e.components;(0,o.default)(e,["components"]);return a.default.createElement(r.MDXTag,{name:"wrapper",components:n})}}}]);
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[19],{152:function(_,A,D){}}]);

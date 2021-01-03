@@ -19,6 +19,11 @@ export default [
     component:Magazine,
     //component:loadable(() => import (/* webpackChunkName: `app.magazine` */ './pages/Magazine.js')),
     exact    :true
+  },
+  {
+    path     :MODULE_URLS.SAUCE,
+    component:loadable(() => import (/* webpackChunkName: `app.magazine` */ './pages/Sauce.js')),
+    exact    :true
   }
 ]
 

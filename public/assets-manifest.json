@@ -3,170 +3,255 @@
     "main"
   ],
   "origins": {
-    "2": [
-      18,
-      19,
-      2
-    ],
     "./page.scss": [
       1,
+      2,
+      3,
       4,
-      5,
       6,
       7,
       8,
       9,
       10,
-      13,
+      11,
+      12,
+      16,
       0
     ],
     "./section.scss": [
       1,
+      2,
+      3,
       4,
-      5,
       6,
       7,
       8,
       9,
       10,
-      13,
+      11,
+      12,
+      16,
       0
+    ],
+    "./label.scss": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      1
+    ],
+    "./subtitle.scss": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      2
+    ],
+    "./heading.scss": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      3
     ],
     "./article_card.scss": [
       0,
-      4,
-      5,
+      1,
+      2,
+      3,
       6,
       7,
       8,
       9,
       10,
-      13,
-      1
-    ],
-    "./pages/Magazine.js": [
+      11,
       12,
-      3
+      16,
+      4
+    ],
+    "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx": [
+      14,
+      15,
+      5
     ],
     "ds.common.site_context": [
       0,
       1,
-      5,
-      6,
+      2,
+      3,
+      4,
       7,
       8,
       9,
       10,
-      13,
-      4
+      11,
+      12,
+      16,
+      6
     ],
     "ds.dashboard.common": [
       0,
       1,
+      2,
+      3,
       4,
       6,
-      7,
       8,
       9,
       10,
-      13,
-      5
+      11,
+      12,
+      16,
+      7
     ],
     "ds.dashboard.routes": [
       0,
       1,
+      2,
+      3,
       4,
-      5,
+      6,
       7,
-      8,
       9,
       10,
-      13,
-      6
+      11,
+      12,
+      16,
+      8
     ],
     "ds.home.adrian_villa": [
       0,
       1,
+      2,
+      3,
       4,
-      5,
       6,
+      7,
       8,
-      9,
       10,
-      13,
-      7
+      11,
+      12,
+      16,
+      9
     ],
     "ds.main": [
       0,
       1,
+      2,
+      3,
       4,
-      5,
       6,
       7,
+      8,
+      9,
+      11,
+      12,
+      16,
+      10
+    ],
+    "./pages/Sauce.js": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
       9,
       10,
-      13,
-      8
+      12,
+      16,
+      11
     ],
     "main": [
       0,
       1,
+      2,
+      3,
       4,
-      5,
       6,
       7,
       8,
+      9,
       10,
-      13,
-      9
+      12,
+      16,
+      11
     ],
     "runtime": [
       0,
       1,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      13,
-      10
-    ],
-    "./styles/local.scss": [
-      11
-    ],
-    "vendors~app.magazine": [
+      2,
       3,
-      12
-    ],
-    "vendors~main": [
-      0,
-      1,
       4,
-      5,
       6,
       7,
       8,
       9,
       10,
+      11,
+      16,
+      12
+    ],
+    "./styles/local.scss": [
       13
     ],
-    "./local_nav_bar.scss": [
+    ".cache/mdx.macro/content.c9301eb537.mdx.js": [
+      5,
       14
     ],
-    "./main.scss": [
+    ".cache/mdx.macro/content.e8664fdadb.mdx.js": [
+      5,
+      15
+    ],
+    "vendors~main": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
       16
     ],
-    "./magazine.scss": [
+    "./local_nav_bar.scss": [
       17
     ],
-    ".cache/mdx.macro/content.c9301eb537.mdx.js": [
-      2,
-      18
-    ],
-    ".cache/mdx.macro/content.e8664fdadb.mdx.js": [
-      2,
+    "./main.scss": [
       19
+    ],
+    "./magazine.scss": [
+      20
     ]
   },
   "assets": {
@@ -174,212 +259,242 @@
       "css": [
         {
           "file": "ds.site.page.css?65efd",
-          "hash": "87f7063f9c61a037e1d5",
+          "hash": "5ee9057d86189b638aa0",
           "publicPath": "/ds.site.page.css?65efd"
         }
       ],
       "js": [
         {
-          "file": "ds.site.page.js?be4138ed",
-          "hash": "87f7063f9c61a037e1d5",
-          "publicPath": "/ds.site.page.js?be4138ed"
+          "file": "ds.site.page.js?1ed8224a",
+          "hash": "5ee9057d86189b638aa0",
+          "publicPath": "/ds.site.page.js?1ed8224a"
         }
       ]
     },
     "1": {
       "css": [
         {
+          "file": "ds.common.label.css?ddd7f",
+          "hash": "af9e891b1782d212d8a8",
+          "publicPath": "/ds.common.label.css?ddd7f"
+        }
+      ],
+      "js": [
+        {
+          "file": "ds.common.label.js?1ed8224a",
+          "hash": "af9e891b1782d212d8a8",
+          "publicPath": "/ds.common.label.js?1ed8224a"
+        }
+      ]
+    },
+    "2": {
+      "css": [
+        {
+          "file": "ds.common.subtitle.css?154fa",
+          "hash": "1e87df6e0c624fa77206",
+          "publicPath": "/ds.common.subtitle.css?154fa"
+        }
+      ],
+      "js": [
+        {
+          "file": "ds.common.subtitle.js?1ed8224a",
+          "hash": "1e87df6e0c624fa77206",
+          "publicPath": "/ds.common.subtitle.js?1ed8224a"
+        }
+      ]
+    },
+    "3": {
+      "css": [
+        {
+          "file": "ds.elements.heading.css?e994d",
+          "hash": "96620e52f267190b08ec",
+          "publicPath": "/ds.elements.heading.css?e994d"
+        }
+      ],
+      "js": [
+        {
+          "file": "ds.elements.heading.js?1ed8224a",
+          "hash": "96620e52f267190b08ec",
+          "publicPath": "/ds.elements.heading.js?1ed8224a"
+        }
+      ]
+    },
+    "4": {
+      "css": [
+        {
           "file": "ds.magazine.article_card.css?75772",
-          "hash": "f683539563e618a56d9a",
+          "hash": "f5a96f25cb38b734e526",
           "publicPath": "/ds.magazine.article_card.css?75772"
         }
       ],
       "js": [
         {
-          "file": "ds.magazine.article_card.js?be4138ed",
-          "hash": "f683539563e618a56d9a",
-          "publicPath": "/ds.magazine.article_card.js?be4138ed"
-        }
-      ]
-    },
-    "2": {
-      "js": [
-        {
-          "file": "2.js?be4138ed",
-          "hash": "8d8f8871d4fbb81019c4",
-          "publicPath": "/2.js?be4138ed"
-        }
-      ]
-    },
-    "3": {
-      "js": [
-        {
-          "file": "app.magazine.js?be4138ed",
-          "hash": "36daba6a78721cbaa41b",
-          "publicPath": "/app.magazine.js?be4138ed"
-        }
-      ]
-    },
-    "4": {
-      "js": [
-        {
-          "file": "ds.common.site_context.js?be4138ed",
-          "hash": "ad561b6f235cef23d165",
-          "publicPath": "/ds.common.site_context.js?be4138ed"
+          "file": "ds.magazine.article_card.js?1ed8224a",
+          "hash": "f5a96f25cb38b734e526",
+          "publicPath": "/ds.magazine.article_card.js?1ed8224a"
         }
       ]
     },
     "5": {
       "js": [
         {
-          "file": "ds.dashboard.common.js?be4138ed",
-          "hash": "d94929576a4eb4617393",
-          "publicPath": "/ds.dashboard.common.js?be4138ed"
+          "file": "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?1ed8224a",
+          "hash": "e5bb57683a86f208abde",
+          "publicPath": "/vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?1ed8224a"
         }
       ]
     },
     "6": {
       "js": [
         {
-          "file": "ds.dashboard.routes.js?be4138ed",
-          "hash": "63889ca7d892afc78268",
-          "publicPath": "/ds.dashboard.routes.js?be4138ed"
+          "file": "ds.common.site_context.js?1ed8224a",
+          "hash": "3e69f0260f92ebb02049",
+          "publicPath": "/ds.common.site_context.js?1ed8224a"
         }
       ]
     },
     "7": {
       "js": [
         {
-          "file": "ds.home.adrian_villa.js?be4138ed",
-          "hash": "93b7257552fe8ff91a1d",
-          "publicPath": "/ds.home.adrian_villa.js?be4138ed"
+          "file": "ds.dashboard.common.js?1ed8224a",
+          "hash": "6246e31db241cbd6bf7d",
+          "publicPath": "/ds.dashboard.common.js?1ed8224a"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "ds.main.js?be4138ed",
-          "hash": "8742ebc926629c032168",
-          "publicPath": "/ds.main.js?be4138ed"
+          "file": "ds.dashboard.routes.js?1ed8224a",
+          "hash": "fb51dbbeec3a8d5b16e0",
+          "publicPath": "/ds.dashboard.routes.js?1ed8224a"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "main.js?be4138ed",
-          "hash": "16ae1e9b97c9ebed2c6f",
-          "publicPath": "/main.js?be4138ed"
+          "file": "ds.home.adrian_villa.js?1ed8224a",
+          "hash": "5098b5657a22c3549f5e",
+          "publicPath": "/ds.home.adrian_villa.js?1ed8224a"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "runtime.js?be4138ed",
-          "hash": "fd025dcb43655e96bcfd",
-          "publicPath": "/runtime.js?be4138ed"
+          "file": "ds.main.js?1ed8224a",
+          "hash": "73c0f38aeb069bb997cd",
+          "publicPath": "/ds.main.js?1ed8224a"
         }
       ]
     },
     "11": {
-      "css": [
-        {
-          "file": "styles.css?3fac9",
-          "hash": "7246560f380d7e641131",
-          "publicPath": "/styles.css?3fac9"
-        }
-      ],
       "js": [
         {
-          "file": "styles.js?be4138ed",
-          "hash": "7246560f380d7e641131",
-          "publicPath": "/styles.js?be4138ed"
+          "file": "main.js?1ed8224a",
+          "hash": "299adb80455de91732c1",
+          "publicPath": "/main.js?1ed8224a"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "vendors~app.magazine.js?be4138ed",
-          "hash": "8c195d76051fb74b8268",
-          "publicPath": "/vendors~app.magazine.js?be4138ed"
+          "file": "runtime.js?1ed8224a",
+          "hash": "7862d322e7e723f3f4df",
+          "publicPath": "/runtime.js?1ed8224a"
         }
       ]
     },
     "13": {
+      "css": [
+        {
+          "file": "styles.css?3fac9",
+          "hash": "b4a2a9ba614f9a5ba26b",
+          "publicPath": "/styles.css?3fac9"
+        }
+      ],
       "js": [
         {
-          "file": "vendors~main.js?be4138ed",
-          "hash": "d8ac8754ce2d4a7e8b34",
-          "publicPath": "/vendors~main.js?be4138ed"
+          "file": "styles.js?1ed8224a",
+          "hash": "b4a2a9ba614f9a5ba26b",
+          "publicPath": "/styles.js?1ed8224a"
         }
       ]
     },
     "14": {
-      "css": [
-        {
-          "file": "14.css?7e2c9",
-          "hash": "cb9f5441498115d0de38",
-          "publicPath": "/14.css?7e2c9"
-        }
-      ],
       "js": [
         {
-          "file": "14.js?be4138ed",
-          "hash": "cb9f5441498115d0de38",
-          "publicPath": "/14.js?be4138ed"
+          "file": "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?1ed8224a",
+          "hash": "4877995fd4f12f064287",
+          "publicPath": "/vendors~cache-mdx-macro-content-c9301eb537-mdx.js?1ed8224a"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?1ed8224a",
+          "hash": "1aca4bc26c3e90c740c4",
+          "publicPath": "/vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?1ed8224a"
         }
       ]
     },
     "16": {
-      "css": [
-        {
-          "file": "16.css?0e433",
-          "hash": "0bc1873d6030cb96bb08",
-          "publicPath": "/16.css?0e433"
-        }
-      ],
       "js": [
         {
-          "file": "16.js?be4138ed",
-          "hash": "0bc1873d6030cb96bb08",
-          "publicPath": "/16.js?be4138ed"
+          "file": "vendors~main.js?1ed8224a",
+          "hash": "ae14d17f6a4603a218c7",
+          "publicPath": "/vendors~main.js?1ed8224a"
         }
       ]
     },
     "17": {
       "css": [
         {
-          "file": "17.css?be70f",
-          "hash": "3aca1002596ee978bfb1",
-          "publicPath": "/17.css?be70f"
+          "file": "17.css?7e2c9",
+          "hash": "6ec28fd8e9465c2272f3",
+          "publicPath": "/17.css?7e2c9"
         }
       ],
       "js": [
         {
-          "file": "17.js?be4138ed",
-          "hash": "3aca1002596ee978bfb1",
-          "publicPath": "/17.js?be4138ed"
-        }
-      ]
-    },
-    "18": {
-      "js": [
-        {
-          "file": "18.js?be4138ed",
-          "hash": "4c42ad835c6712068c2e",
-          "publicPath": "/18.js?be4138ed"
+          "file": "17.js?1ed8224a",
+          "hash": "6ec28fd8e9465c2272f3",
+          "publicPath": "/17.js?1ed8224a"
         }
       ]
     },
     "19": {
+      "css": [
+        {
+          "file": "19.css?0e433",
+          "hash": "aa31f094b3cc87ab705a",
+          "publicPath": "/19.css?0e433"
+        }
+      ],
       "js": [
         {
-          "file": "19.js?be4138ed",
-          "hash": "18046cbe694cc9ce5083",
-          "publicPath": "/19.js?be4138ed"
+          "file": "19.js?1ed8224a",
+          "hash": "aa31f094b3cc87ab705a",
+          "publicPath": "/19.js?1ed8224a"
+        }
+      ]
+    },
+    "20": {
+      "css": [
+        {
+          "file": "20.css?be70f",
+          "hash": "7f765663d4987d49548d",
+          "publicPath": "/20.css?be70f"
+        }
+      ],
+      "js": [
+        {
+          "file": "20.js?1ed8224a",
+          "hash": "7f765663d4987d49548d",
+          "publicPath": "/20.js?1ed8224a"
         }
       ]
     }

@@ -1,1 +1,1 @@
-.single_view{height:100%}
+#page_magazine{height:100%;overflow-y:scroll;-ms-scroll-snap-type:y mandatory;scroll-snap-type:y mandatory}#page_magazine footer{scroll-snap-align:center}#page_magazine>main{scroll-snap-align:start}
