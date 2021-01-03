@@ -67,6 +67,20 @@ module.exports = {
       {
         test  :/\.(scss|css)$/,
         loader:'ignore-loader'
+      },
+      {
+        test:/\.mdx?$/,
+        use :[
+          {
+            loader:'babel-loader'
+          },
+          {
+            loader :'@mdx-js/loader',
+            options:{
+              //remarkPlugins: [images, emoji]
+            }
+          }
+        ]
       }
     ]
 
