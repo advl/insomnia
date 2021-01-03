@@ -1,24 +1,22 @@
 {
   "errors": [],
-  "warnings": [
-    "./src/app/magazine/routes.js 23:13-21\n\"export 'default' (imported as 'Magazine') was not found in './pages'\n @ ./src/app/magazine/index.js\n @ ./src/app/allRoutes.js\n @ ./src/app/App.js\n @ ./src/app/BaseApp.js\n @ ./src/client.js\n @ multi ./src/client.js"
-  ],
+  "warnings": [],
   "version": "4.43.0",
-  "hash": "32822793f0e7b5e35a45",
+  "hash": "46016fcf4db9a33b4a91",
   "publicPath": "/",
   "outputPath": "/home/adrian_villa/code/advl/insomnia/public",
   "assetsByChunkName": {
-    "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx": "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
-    "fwrlines~main": "fwrlines~main.js?32822793",
-    "main": "main.js?32822793",
-    "runtime": "runtime.js?32822793",
+    "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx": "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
+    "fwrlines~main": "fwrlines~main.js?46016fcf",
+    "main": "main.js?46016fcf",
+    "runtime": "runtime.js?46016fcf",
     "styles": [
       "styles.css?3fac9",
-      "styles.js?32822793"
+      "styles.js?46016fcf"
     ],
-    "vendors~cache-mdx-macro-content-c9301eb537-mdx": "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?32822793",
-    "vendors~cache-mdx-macro-content-e8664fdadb-mdx": "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
-    "vendors~main": "vendors~main.js?32822793"
+    "vendors~cache-mdx-macro-content-c9301eb537-mdx": "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?46016fcf",
+    "vendors~cache-mdx-macro-content-e8664fdadb-mdx": "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
+    "vendors~main": "vendors~main.js?46016fcf"
   },
   "assets": [
     {
@@ -34,7 +32,7 @@
       "emitted": false
     },
     {
-      "name": "10.js?32822793",
+      "name": "10.js?46016fcf",
       "size": 111,
       "chunks": [
         10
@@ -58,7 +56,7 @@
       "emitted": false
     },
     {
-      "name": "11.js?32822793",
+      "name": "11.js?46016fcf",
       "size": 111,
       "chunks": [
         11
@@ -82,7 +80,7 @@
       "emitted": false
     },
     {
-      "name": "12.js?32822793",
+      "name": "12.js?46016fcf",
       "size": 111,
       "chunks": [
         12
@@ -106,7 +104,7 @@
       "emitted": false
     },
     {
-      "name": "13.js?32822793",
+      "name": "13.js?46016fcf",
       "size": 111,
       "chunks": [
         13
@@ -130,7 +128,7 @@
       "emitted": false
     },
     {
-      "name": "14.js?32822793",
+      "name": "14.js?46016fcf",
       "size": 111,
       "chunks": [
         14
@@ -154,7 +152,7 @@
       "emitted": false
     },
     {
-      "name": "15.js?32822793",
+      "name": "15.js?46016fcf",
       "size": 111,
       "chunks": [
         15
@@ -178,7 +176,7 @@
       "emitted": false
     },
     {
-      "name": "16.js?32822793",
+      "name": "16.js?46016fcf",
       "size": 111,
       "chunks": [
         16
@@ -202,7 +200,7 @@
       "emitted": false
     },
     {
-      "name": "17.js?32822793",
+      "name": "17.js?46016fcf",
       "size": 111,
       "chunks": [
         17
@@ -226,7 +224,7 @@
       "emitted": false
     },
     {
-      "name": "8.js?32822793",
+      "name": "8.js?46016fcf",
       "size": 110,
       "chunks": [
         8
@@ -250,7 +248,7 @@
       "emitted": false
     },
     {
-      "name": "9.js?32822793",
+      "name": "9.js?46016fcf",
       "size": 110,
       "chunks": [
         9
@@ -358,7 +356,7 @@
       "emitted": false
     },
     {
-      "name": "fwrlines~main.js?32822793",
+      "name": "fwrlines~main.js?46016fcf",
       "size": 95169,
       "chunks": [
         1
@@ -490,8 +488,8 @@
       "emitted": false
     },
     {
-      "name": "main.js?32822793",
-      "size": 15654,
+      "name": "main.js?46016fcf",
+      "size": 17730,
       "chunks": [
         2
       ],
@@ -536,7 +534,7 @@
       "emitted": false
     },
     {
-      "name": "runtime.js?32822793",
+      "name": "runtime.js?46016fcf",
       "size": 11486,
       "chunks": [
         3
@@ -564,7 +562,7 @@
       "emitted": false
     },
     {
-      "name": "styles.js?32822793",
+      "name": "styles.js?46016fcf",
       "size": 110,
       "chunks": [
         4
@@ -682,7 +680,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?32822793",
+      "name": "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?46016fcf",
       "size": 912,
       "chunks": [
         5
@@ -696,7 +694,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
+      "name": "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
       "size": 7628,
       "chunks": [
         0
@@ -710,7 +708,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
+      "name": "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
       "size": 380,
       "chunks": [
         6
@@ -724,7 +722,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~main.js?32822793",
+      "name": "vendors~main.js?46016fcf",
       "size": 265074,
       "chunks": [
         7
@@ -748,10 +746,10 @@
         2
       ],
       "assets": [
-        "runtime.js?32822793",
-        "fwrlines~main.js?32822793",
-        "vendors~main.js?32822793",
-        "main.js?32822793"
+        "runtime.js?46016fcf",
+        "fwrlines~main.js?46016fcf",
+        "vendors~main.js?46016fcf",
+        "main.js?46016fcf"
       ],
       "children": {
         "preload": [
@@ -762,7 +760,7 @@
             ],
             "assets": [
               "styles.css?3fac9",
-              "styles.js?32822793"
+              "styles.js?46016fcf"
             ]
           }
         ]
@@ -770,7 +768,7 @@
       "childAssets": {
         "preload": [
           "styles.css?3fac9",
-          "styles.js?32822793"
+          "styles.js?46016fcf"
         ]
       }
     }
@@ -784,10 +782,10 @@
         2
       ],
       "assets": [
-        "runtime.js?32822793",
-        "fwrlines~main.js?32822793",
-        "vendors~main.js?32822793",
-        "main.js?32822793"
+        "runtime.js?46016fcf",
+        "fwrlines~main.js?46016fcf",
+        "vendors~main.js?46016fcf",
+        "main.js?46016fcf"
       ],
       "children": {
         "preload": [
@@ -798,7 +796,7 @@
             ],
             "assets": [
               "styles.css?3fac9",
-              "styles.js?32822793"
+              "styles.js?46016fcf"
             ]
           }
         ]
@@ -806,7 +804,7 @@
       "childAssets": {
         "preload": [
           "styles.css?3fac9",
-          "styles.js?32822793"
+          "styles.js?46016fcf"
         ]
       }
     },
@@ -816,7 +814,7 @@
       ],
       "assets": [
         "styles.css?3fac9",
-        "styles.js?32822793"
+        "styles.js?46016fcf"
       ],
       "children": {},
       "childAssets": {}
@@ -833,8 +831,8 @@
         5
       ],
       "assets": [
-        "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
-        "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?32822793"
+        "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
+        "vendors~cache-mdx-macro-content-c9301eb537-mdx.js?46016fcf"
       ],
       "children": {},
       "childAssets": {}
@@ -845,8 +843,8 @@
         6
       ],
       "assets": [
-        "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793",
-        "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?32822793"
+        "vendors~cache-mdx-macro-content-c9301eb537-mdx~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf",
+        "vendors~cache-mdx-macro-content-e8664fdadb-mdx.js?46016fcf"
       ],
       "children": {},
       "childAssets": {}
@@ -12214,15 +12212,15 @@
             },
             {
               "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
+            },
+            {
+              "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
             },
             {
               "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
             },
             {
               "type": "log",
@@ -46563,15 +46561,15 @@
             },
             {
               "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
-            },
-            {
-              "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
             },
             {
               "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
             },
             {
               "type": "log",
@@ -47160,6 +47158,14 @@
             },
             {
               "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
+            },
+            {
+              "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/BLOKK.woff' should write to 'BLOKK.woff'"
             },
             {
@@ -47261,14 +47267,6 @@
             {
               "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/usmi.woff2' should write to 'usmi.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
             },
             {
               "type": "log",
@@ -47861,6 +47859,14 @@
             },
             {
               "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
+            },
+            {
+              "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/BLOKK.woff' should write to 'BLOKK.woff'"
             },
             {
@@ -47962,14 +47968,6 @@
             {
               "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/usmi.woff2' should write to 'usmi.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
             },
             {
               "type": "log",
@@ -75200,62 +75198,6 @@
             },
             {
               "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/other/test' should write to 'test'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.bold.woff' should write to 'headings.bold.woff'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.bold.woff2' should write to 'headings.bold.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.woff' should write to 'headings.woff'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.woff2' should write to 'headings.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/icons.woff' should write to 'icons.woff'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/icons.woff2' should write to 'icons.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.bold.woff' should write to 'paragraph.bold.woff'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.bold.woff2' should write to 'paragraph.bold.woff2'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.woff' should write to 'paragraph.woff'"
-            },
-            {
-              "type": "log",
-              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.woff2' should write to 'paragraph.woff2'"
-            },
-            {
-              "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/BLOKK.woff' should write to 'BLOKK.woff'"
             },
             {
@@ -75357,6 +75299,62 @@
             {
               "type": "log",
               "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/fonts/usmi.woff2' should write to 'usmi.woff2'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/f.png' should write to 'f.png'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/images/logo.svg' should write to 'logo.svg'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/favicon/test' should write to 'test'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/src/assets/other/test' should write to 'test'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.bold.woff' should write to 'headings.bold.woff'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.bold.woff2' should write to 'headings.bold.woff2'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.woff' should write to 'headings.woff'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/headings.woff2' should write to 'headings.woff2'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/icons.woff' should write to 'icons.woff'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/icons.woff2' should write to 'icons.woff2'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.bold.woff' should write to 'paragraph.bold.woff'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.bold.woff2' should write to 'paragraph.bold.woff2'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.woff' should write to 'paragraph.woff'"
+            },
+            {
+              "type": "log",
+              "message": "determined that '/home/adrian_villa/code/advl/insomnia/node_modules/@fwrlines/assets/fonts/paragraph.woff2' should write to 'paragraph.woff2'"
             },
             {
               "type": "log",

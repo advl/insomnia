@@ -7,7 +7,7 @@ const moduleName = 'app.magazine'
 
 import issues from './issues'
 
-import Magazine from './pages'
+import { Magazine } from './pages'
 
 
 export default [
