@@ -116,7 +116,9 @@ module.exports = {
         fwrlines:{
           chunks  :'all',
           priority:100,
-          test    :/fwrlines\/ds[\\/]/,
+          test    :/fwrlines\/ds[\\/]/
+
+          /*
           name(module) {
             //const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)[1]
             const nameSplit = module.context.split('/')
@@ -128,7 +130,7 @@ module.exports = {
               return ['ds', family, pascalToSnake(moduleName)].join('.')
             }
             return 'ds.main'
-          }
+          }*/
         }
         
         /*

@@ -1,1 +1,1 @@
-
+.local_nav_bar{mix-blend-mode:exclusion;padding:calc(0.5*var(--u)) 0;position:-webkit-sticky;position:sticky;scroll-snap-align:center;text-align:center;top:0;width:100%;z-index:2}.local_nav_bar svg#logo{cursor:pointer}.local_nav_bar svg#logo use{fill:var(--yellow)}
