@@ -11,4 +11,4 @@ export const metadata = {
   subtitle:'Entretien avec C.S',
   id      :'issue-1'
 }
-export const Content = lazy(() => importMDX('./content.mdx'))
+export const Content = loadable(() => importMDX('./content.mdx'))

@@ -7,6 +7,8 @@ const moduleName = 'app.magazine'
 
 import issues from './issues'
 
+import Magazine from './pages'
+
 
 export default [
   {
@@ -14,7 +16,8 @@ export default [
       MODULE_URLS.HOME,
       ...issues.map(issue => issue.url)
     ],
-    component:loadable(() => import (/* webpackChunkName: `app.magazine` */ './pages/Magazine.js')),
+    component:Magazine,
+    //component:loadable(() => import (/* webpackChunkName: `app.magazine` */ './pages/Magazine.js')),
     exact    :true
   }
 ]

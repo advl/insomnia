@@ -1,6 +1,5 @@
 /* @fwrlines/generator-react-component 2.5.1 */
 import * as React from 'react'
-import { Suspense } from 'react'
 import { useLayoutEffect, useEffect, useCallback, useState } from 'react'
 import PropTypes from 'prop-types'
 
@@ -166,9 +165,7 @@ const Magazine = ({
       ))}
       { Content &&
         <main>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Content />
-          </Suspense>
+          <Content />
         </main>
       }
       { !activeStory &&
